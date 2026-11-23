@@ -1,6 +1,11 @@
 # Cumulative enterprise GenAI disclosure benchmark
 
-This repository contains the synthetic enterprise interaction benchmark, labelling code, detection models and evaluation results accompanying the study on cumulative enterprise data leakage and attack-ready disclosure states in generative AI.
+This repository contains the synthetic enterprise interaction benchmark, labelling code, detection models and evaluation results accompanying the study on cumulative enterprise data leakage and attack-ready disclosure states in generative AI. 
+
+The article is published by Scientific Reports:
+
+## Detecting Attack Readiness from Cumulative Enterprise Data Leakage in Generative AI
+
 
 The main benchmark contains 15,000 sessions and 92,791 prompts, organised into three profiles.
 
