@@ -1,0 +1,16 @@
+{
+  "llm_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "sample_size": 4671,
+  "sample_selection": "stratified random subset of seed-42 test prefixes",
+  "test_positive_rate": 0.13401841147505889,
+  "retrieval_k": 3,
+  "retrieval_corpus": "training prefixes only",
+  "llm_threshold": 0.5,
+  "device": "cpu",
+  "notes": [
+    "The LLM comparator receives cumulative text history only.",
+    "The retrieval-augmented LLM retrieves labelled exemplars only from the training partition.",
+    "This is a task-aligned contemporary LLM comparator, not a reimplementation of a published cumulative-disclosure detector.",
+    "No attack-template scores or label-derived structured features are provided to the proposed models."
+  ]
+}

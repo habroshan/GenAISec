@@ -1,0 +1,193 @@
+{
+  "seeds": [
+    42,
+    52,
+    62,
+    72,
+    82
+  ],
+  "profile": "balanced",
+  "reference_model_for_tests": "cumulative_lr_text_numeric",
+  "summary": [
+    {
+      "model": "prompt_lr_text",
+      "display_name": "Prompt LR",
+      "n_seeds": 5,
+      "f1_mean": 0.5150106998070185,
+      "f1_sd": 0.012632823168201312,
+      "f1_ci95_low": 0.4993249780833885,
+      "f1_ci95_high": 0.5306964215306486,
+      "roc_auc_mean": 0.8401094653723483,
+      "roc_auc_sd": 0.006080370392558119,
+      "roc_auc_ci95_low": 0.8325596883601648,
+      "roc_auc_ci95_high": 0.8476592423845318
+    },
+    {
+      "model": "cumulative_lr_text",
+      "display_name": "Cumulative LR",
+      "n_seeds": 5,
+      "f1_mean": 0.9051799851653465,
+      "f1_sd": 0.006699619685347545,
+      "f1_ci95_low": 0.8968613086003931,
+      "f1_ci95_high": 0.9134986617302998,
+      "roc_auc_mean": 0.9946663594106507,
+      "roc_auc_sd": 0.000936932296767794,
+      "roc_auc_ci95_low": 0.9935030043089998,
+      "roc_auc_ci95_high": 0.9958297145123016
+    },
+    {
+      "model": "cumulative_lr_text_numeric",
+      "display_name": "Cumulative LR + Numeric",
+      "n_seeds": 5,
+      "f1_mean": 0.9364616658466398,
+      "f1_sd": 0.012317659631521701,
+      "f1_ci95_low": 0.9211672713400515,
+      "f1_ci95_high": 0.9517560603532281,
+      "roc_auc_mean": 0.996694033393943,
+      "roc_auc_sd": 0.0008207114489951872,
+      "roc_auc_ci95_low": 0.995674985534812,
+      "roc_auc_ci95_high": 0.997713081253074
+    },
+    {
+      "model": "gru_sequence",
+      "display_name": "GRU",
+      "n_seeds": 5,
+      "f1_mean": 0.9345330779990662,
+      "f1_sd": 0.009024692348088547,
+      "f1_ci95_low": 0.9233274424155796,
+      "f1_ci95_high": 0.9457387135825527,
+      "roc_auc_mean": 0.9967952592143738,
+      "roc_auc_sd": 0.0008655796914852172,
+      "roc_auc_ci95_low": 0.9957205000738804,
+      "roc_auc_ci95_high": 0.9978700183548673
+    },
+    {
+      "model": "bilstm_sequence",
+      "display_name": "BiLSTM",
+      "n_seeds": 5,
+      "f1_mean": 0.9330740560027884,
+      "f1_sd": 0.004773767310096288,
+      "f1_ci95_low": 0.9271466409980398,
+      "f1_ci95_high": 0.939001471007537,
+      "roc_auc_mean": 0.9965203984005535,
+      "roc_auc_sd": 0.0005152909632875733,
+      "roc_auc_ci95_low": 0.9958805801628395,
+      "roc_auc_ci95_high": 0.9971602166382675
+    },
+    {
+      "model": "transformer_sequence",
+      "display_name": "Transformer",
+      "n_seeds": 5,
+      "f1_mean": 0.9118132300909749,
+      "f1_sd": 0.007493551191912231,
+      "f1_ci95_low": 0.9025087573572805,
+      "f1_ci95_high": 0.9211177028246693,
+      "roc_auc_mean": 0.9949774768362394,
+      "roc_auc_sd": 0.0008823945699099891,
+      "roc_auc_ci95_low": 0.9938818392665717,
+      "roc_auc_ci95_high": 0.9960731144059071
+    }
+  ],
+  "paired_tests": [
+    {
+      "metric": "f1",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "prompt_lr_text",
+      "mean_difference_reference_minus_comparison": 0.4214509660396213,
+      "paired_t_statistic": 142.98843623553748,
+      "paired_t_pvalue": 1.4348483019273033e-08,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.0625
+    },
+    {
+      "metric": "f1",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "cumulative_lr_text",
+      "mean_difference_reference_minus_comparison": 0.03128168068129324,
+      "paired_t_statistic": 5.57515879691764,
+      "paired_t_pvalue": 0.0050731248196778005,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.0625
+    },
+    {
+      "metric": "f1",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "gru_sequence",
+      "mean_difference_reference_minus_comparison": 0.0019285878475735706,
+      "paired_t_statistic": 0.3317567675028603,
+      "paired_t_pvalue": 0.7567276223607277,
+      "wilcoxon_statistic": 7.0,
+      "wilcoxon_pvalue": 1.0
+    },
+    {
+      "metric": "f1",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "bilstm_sequence",
+      "mean_difference_reference_minus_comparison": 0.0033876098438512916,
+      "paired_t_statistic": 0.5638034266433125,
+      "paired_t_pvalue": 0.6029970819626835,
+      "wilcoxon_statistic": 5.0,
+      "wilcoxon_pvalue": 0.625
+    },
+    {
+      "metric": "f1",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "transformer_sequence",
+      "mean_difference_reference_minus_comparison": 0.02464843575566462,
+      "paired_t_statistic": 6.534690890579385,
+      "paired_t_pvalue": 0.0028334649634803315,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.0625
+    },
+    {
+      "metric": "roc_auc",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "prompt_lr_text",
+      "mean_difference_reference_minus_comparison": 0.1565845680215945,
+      "paired_t_statistic": 65.75814686046913,
+      "paired_t_pvalue": 3.2039351496219164e-07,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.0625
+    },
+    {
+      "metric": "roc_auc",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "cumulative_lr_text",
+      "mean_difference_reference_minus_comparison": 0.0020276739832921775,
+      "paired_t_statistic": 4.1163135525902215,
+      "paired_t_pvalue": 0.014656433339872656,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.0625
+    },
+    {
+      "metric": "roc_auc",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "gru_sequence",
+      "mean_difference_reference_minus_comparison": -0.00010122582043090578,
+      "paired_t_statistic": -0.3538917716780668,
+      "paired_t_pvalue": 0.7412860789917741,
+      "wilcoxon_statistic": 7.0,
+      "wilcoxon_pvalue": 1.0
+    },
+    {
+      "metric": "roc_auc",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "bilstm_sequence",
+      "mean_difference_reference_minus_comparison": 0.00017363499338933773,
+      "paired_t_statistic": 0.608478671888158,
+      "paired_t_pvalue": 0.5757296188261741,
+      "wilcoxon_statistic": 6.0,
+      "wilcoxon_pvalue": 0.8125
+    },
+    {
+      "metric": "roc_auc",
+      "reference_model": "cumulative_lr_text_numeric",
+      "comparison_model": "transformer_sequence",
+      "mean_difference_reference_minus_comparison": 0.0017165565577035747,
+      "paired_t_statistic": 6.026831026940682,
+      "paired_t_pvalue": 0.0038195369307288687,
+      "wilcoxon_statistic": 0.0,
+      "wilcoxon_pvalue": 0.0625
+    }
+  ]
+}

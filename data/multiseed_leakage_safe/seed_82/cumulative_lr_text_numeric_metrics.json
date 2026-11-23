@@ -1,0 +1,22 @@
+{
+  "accuracy": 0.983117737338303,
+  "precision": 0.9157566302652106,
+  "recall": 0.9622950819672131,
+  "f1": 0.938449240607514,
+  "roc_auc": 0.9966731808921584,
+  "confusion_matrix": [
+    [
+      3897,
+      54
+    ],
+    [
+      23,
+      587
+    ]
+  ],
+  "threshold": 0.7649999999999999,
+  "model": "cumulative_lr_text_numeric",
+  "cumulative_input": true,
+  "use_numeric_features": true,
+  "num_test_samples": 4561
+}

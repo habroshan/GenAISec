@@ -1,0 +1,20 @@
+{
+  "profile": "balanced",
+  "input_path": "data/profiles/balanced/prompt_sessions_labeled.json",
+  "train_sessions": 3500,
+  "val_sessions": 750,
+  "test_sessions": 750,
+  "train_prefixes": 21531,
+  "val_prefixes": 4581,
+  "test_prefixes": 4671,
+  "train_positive_rate": 0.13389995819980494,
+  "val_positive_rate": 0.13381357782143638,
+  "test_positive_rate": 0.13401841147505889,
+  "numeric_features": [
+    "turn_id",
+    "new_entity_count",
+    "new_entity_type_count",
+    "cumulative_entity_count",
+    "cumulative_entity_type_count"
+  ]
+}
