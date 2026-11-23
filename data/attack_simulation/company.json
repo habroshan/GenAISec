@@ -1,0 +1,388 @@
+{
+    "name": "TechNova Ltd",
+    "employees": [
+        {
+            "id": 0,
+            "name": "Frank Smith",
+            "department": "Finance",
+            "role": "Accountant",
+            "manager_id": null
+        },
+        {
+            "id": 1,
+            "name": "Frank Wilson",
+            "department": "Legal",
+            "role": "Legal Advisor",
+            "manager_id": 1
+        },
+        {
+            "id": 2,
+            "name": "Grace Johnson",
+            "department": "Engineering",
+            "role": "DevOps Engineer",
+            "manager_id": 0
+        },
+        {
+            "id": 3,
+            "name": "Frank Smith",
+            "department": "HR",
+            "role": "HR Manager",
+            "manager_id": 3
+        },
+        {
+            "id": 4,
+            "name": "David Taylor",
+            "department": "Legal",
+            "role": "Legal Advisor",
+            "manager_id": 4
+        },
+        {
+            "id": 5,
+            "name": "Grace Smith",
+            "department": "HR",
+            "role": "Recruiter",
+            "manager_id": 4
+        },
+        {
+            "id": 6,
+            "name": "Frank Wilson",
+            "department": "Sales",
+            "role": "Sales Manager",
+            "manager_id": 2
+        },
+        {
+            "id": 7,
+            "name": "Hannah Brown",
+            "department": "Executive",
+            "role": "CTO",
+            "manager_id": 7
+        },
+        {
+            "id": 8,
+            "name": "Emma Taylor",
+            "department": "Legal",
+            "role": "Legal Advisor",
+            "manager_id": 8
+        },
+        {
+            "id": 9,
+            "name": "Charlie Taylor",
+            "department": "Executive",
+            "role": "CEO",
+            "manager_id": 7
+        },
+        {
+            "id": 10,
+            "name": "David Brown",
+            "department": "Engineering",
+            "role": "DevOps Engineer",
+            "manager_id": 5
+        },
+        {
+            "id": 11,
+            "name": "Bob Smith",
+            "department": "Finance",
+            "role": "Accountant",
+            "manager_id": 10
+        },
+        {
+            "id": 12,
+            "name": "Alice Taylor",
+            "department": "IT",
+            "role": "Security Analyst",
+            "manager_id": 11
+        },
+        {
+            "id": 13,
+            "name": "Emma Johnson",
+            "department": "HR",
+            "role": "HR Manager",
+            "manager_id": 11
+        },
+        {
+            "id": 14,
+            "name": "Alice Wilson",
+            "department": "Sales",
+            "role": "Sales Rep",
+            "manager_id": 0
+        },
+        {
+            "id": 15,
+            "name": "Hannah Brown",
+            "department": "IT",
+            "role": "Security Analyst",
+            "manager_id": 10
+        },
+        {
+            "id": 16,
+            "name": "David Brown",
+            "department": "Engineering",
+            "role": "DevOps Engineer",
+            "manager_id": 8
+        },
+        {
+            "id": 17,
+            "name": "Grace Wilson",
+            "department": "Executive",
+            "role": "CEO",
+            "manager_id": 9
+        },
+        {
+            "id": 18,
+            "name": "Bob Taylor",
+            "department": "Procurement",
+            "role": "Procurement Manager",
+            "manager_id": 2
+        },
+        {
+            "id": 19,
+            "name": "Grace Smith",
+            "department": "Finance",
+            "role": "Accountant",
+            "manager_id": 13
+        },
+        {
+            "id": 20,
+            "name": "Bob Brown",
+            "department": "IT",
+            "role": "IT Admin",
+            "manager_id": 19
+        },
+        {
+            "id": 21,
+            "name": "Charlie Wilson",
+            "department": "Legal",
+            "role": "Legal Advisor",
+            "manager_id": 19
+        },
+        {
+            "id": 22,
+            "name": "Charlie Johnson",
+            "department": "Finance",
+            "role": "Finance Manager",
+            "manager_id": 2
+        },
+        {
+            "id": 23,
+            "name": "Bob Brown",
+            "department": "Engineering",
+            "role": "DevOps Engineer",
+            "manager_id": 22
+        },
+        {
+            "id": 24,
+            "name": "Frank Brown",
+            "department": "Legal",
+            "role": "Legal Advisor",
+            "manager_id": 8
+        },
+        {
+            "id": 25,
+            "name": "Bob Wilson",
+            "department": "Sales",
+            "role": "Sales Manager",
+            "manager_id": 21
+        },
+        {
+            "id": 26,
+            "name": "Alice Johnson",
+            "department": "Finance",
+            "role": "Accountant",
+            "manager_id": 22
+        },
+        {
+            "id": 27,
+            "name": "Grace Wilson",
+            "department": "Finance",
+            "role": "Finance Manager",
+            "manager_id": 10
+        },
+        {
+            "id": 28,
+            "name": "Hannah Johnson",
+            "department": "Legal",
+            "role": "Legal Advisor",
+            "manager_id": 22
+        },
+        {
+            "id": 29,
+            "name": "Alice Smith",
+            "department": "Finance",
+            "role": "Accountant",
+            "manager_id": 11
+        }
+    ],
+    "projects": [
+        {
+            "id": 0,
+            "name": "Project-Orion",
+            "sensitivity": "Confidential"
+        },
+        {
+            "id": 1,
+            "name": "Project-Phoenix",
+            "sensitivity": "Internal"
+        },
+        {
+            "id": 2,
+            "name": "Project-Atlas",
+            "sensitivity": "Confidential"
+        },
+        {
+            "id": 3,
+            "name": "Project-Nova",
+            "sensitivity": "Confidential"
+        }
+    ],
+    "vendors": [
+        {
+            "id": 0,
+            "name": "NexaPrint",
+            "service": "Analytics"
+        },
+        {
+            "id": 1,
+            "name": "CloudCore",
+            "service": "Security"
+        },
+        {
+            "id": 2,
+            "name": "SecureIT",
+            "service": "Cloud"
+        },
+        {
+            "id": 3,
+            "name": "DataHub",
+            "service": "Cloud"
+        }
+    ],
+    "systems": [
+        {
+            "id": 0,
+            "name": "ERP-System",
+            "criticality": "High"
+        },
+        {
+            "id": 1,
+            "name": "VPN-Gateway",
+            "criticality": "Medium"
+        },
+        {
+            "id": 2,
+            "name": "Email-Server",
+            "criticality": "Medium"
+        },
+        {
+            "id": 3,
+            "name": "CRM-Platform",
+            "criticality": "Low"
+        }
+    ],
+    "relations": [
+        {
+            "type": "works_on",
+            "employee_id": 2,
+            "project_id": 1
+        },
+        {
+            "type": "handles_vendor",
+            "employee_id": 2,
+            "vendor_id": 3
+        },
+        {
+            "type": "works_on",
+            "employee_id": 3,
+            "project_id": 1
+        },
+        {
+            "type": "works_on",
+            "employee_id": 5,
+            "project_id": 2
+        },
+        {
+            "type": "handles_vendor",
+            "employee_id": 5,
+            "vendor_id": 1
+        },
+        {
+            "type": "works_on",
+            "employee_id": 6,
+            "project_id": 2
+        },
+        {
+            "type": "works_on",
+            "employee_id": 7,
+            "project_id": 2
+        },
+        {
+            "type": "works_on",
+            "employee_id": 8,
+            "project_id": 2
+        },
+        {
+            "type": "works_on",
+            "employee_id": 10,
+            "project_id": 0
+        },
+        {
+            "type": "works_on",
+            "employee_id": 11,
+            "project_id": 2
+        },
+        {
+            "type": "works_on",
+            "employee_id": 13,
+            "project_id": 3
+        },
+        {
+            "type": "works_on",
+            "employee_id": 14,
+            "project_id": 3
+        },
+        {
+            "type": "handles_vendor",
+            "employee_id": 14,
+            "vendor_id": 3
+        },
+        {
+            "type": "works_on",
+            "employee_id": 17,
+            "project_id": 1
+        },
+        {
+            "type": "works_on",
+            "employee_id": 22,
+            "project_id": 0
+        },
+        {
+            "type": "works_on",
+            "employee_id": 23,
+            "project_id": 0
+        },
+        {
+            "type": "handles_vendor",
+            "employee_id": 23,
+            "vendor_id": 3
+        },
+        {
+            "type": "works_on",
+            "employee_id": 24,
+            "project_id": 1
+        },
+        {
+            "type": "works_on",
+            "employee_id": 25,
+            "project_id": 1
+        },
+        {
+            "type": "works_on",
+            "employee_id": 26,
+            "project_id": 3
+        },
+        {
+            "type": "works_on",
+            "employee_id": 28,
+            "project_id": 3
+        }
+    ]
+}

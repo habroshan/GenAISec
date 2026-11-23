@@ -1,0 +1,45 @@
+{
+    "no_leakage": {
+        "avg_max_attack_score": 0.0,
+        "attack_ready_rate": 0.0,
+        "avg_visible_turns": 0.0,
+        "avg_entities_exposed": 0.0,
+        "avg_spear_phishing_score": 0.0,
+        "avg_invoice_fraud_score": 0.0,
+        "avg_access_pretext_score": 0.0
+    },
+    "partial_leakage": {
+        "avg_max_attack_score": 0.2905,
+        "attack_ready_rate": 0.0827,
+        "avg_visible_turns": 1.1307,
+        "avg_entities_exposed": 1.6513,
+        "avg_spear_phishing_score": 0.2807,
+        "avg_invoice_fraud_score": 0.2067,
+        "avg_access_pretext_score": 0.1921
+    },
+    "full_leakage": {
+        "avg_max_attack_score": 0.3298,
+        "attack_ready_rate": 0.1607,
+        "avg_visible_turns": 1.5867,
+        "avg_entities_exposed": 2.1187,
+        "avg_spear_phishing_score": 0.3159,
+        "avg_invoice_fraud_score": 0.2509,
+        "avg_access_pretext_score": 0.2274
+    },
+    "defended_leakage": {
+        "avg_max_attack_score": 0.2836,
+        "attack_ready_rate": 0.038,
+        "avg_visible_turns": 1.4053,
+        "avg_entities_exposed": 1.826,
+        "avg_spear_phishing_score": 0.2712,
+        "avg_invoice_fraud_score": 0.2145,
+        "avg_access_pretext_score": 0.1926
+    },
+    "comparisons": {
+        "max_score_gain_full_vs_no": 0.3298,
+        "max_score_gain_partial_vs_no": 0.2905,
+        "max_score_gain_full_vs_partial": 0.0393,
+        "max_score_reduction_defended_vs_full": 0.0462,
+        "attack_ready_reduction_defended_vs_full": 0.1227
+    }
+}

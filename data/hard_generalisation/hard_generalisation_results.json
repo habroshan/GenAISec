@@ -1,0 +1,188 @@
+{
+  "numeric_features": [
+    "turn_id",
+    "new_entity_count",
+    "new_entity_type_count",
+    "cumulative_entity_count",
+    "cumulative_entity_type_count"
+  ],
+  "seed": 42,
+  "conditions": {
+    "unseen_session_type": {
+      "train_sessions": 2921,
+      "val_sessions": 515,
+      "test_sessions": 1564,
+      "cumulative_lr_numeric": {
+        "accuracy": 0.9168861266196144,
+        "precision": 0.9753737906772207,
+        "recall": 0.593048128342246,
+        "f1": 0.7376122381110741,
+        "roc_auc": 0.984691768016999,
+        "threshold": 0.8799999999999999,
+        "n": 9493
+      },
+      "gru": {
+        "accuracy": 0.9355314442220584,
+        "precision": 0.8661233993015134,
+        "recall": 0.7957219251336899,
+        "f1": 0.8294314381270903,
+        "roc_auc": 0.9820873503420903,
+        "threshold": 0.715,
+        "num_test_samples": 9493
+      },
+      "heldout_groups": [
+        "access_support_disclosure",
+        "single_safe_query",
+        "vendor_finance_disclosure"
+      ]
+    },
+    "unseen_role": {
+      "train_sessions": 3367,
+      "val_sessions": 595,
+      "test_sessions": 1038,
+      "cumulative_lr_numeric": {
+        "accuracy": 0.9818296729341128,
+        "precision": 0.9395109395109396,
+        "recall": 0.9147869674185464,
+        "f1": 0.926984126984127,
+        "roc_auc": 0.9966146608611567,
+        "threshold": 0.8099999999999999,
+        "n": 6329
+      },
+      "gru": {
+        "accuracy": 0.9841997155948807,
+        "precision": 0.9235436893203883,
+        "recall": 0.9536340852130326,
+        "f1": 0.938347718865598,
+        "roc_auc": 0.9964993391089366,
+        "threshold": 0.6849999999999999,
+        "num_test_samples": 6329
+      },
+      "heldout_groups": [
+        "Accounts Payable Analyst",
+        "Chief Operating Officer",
+        "Cloud Operations Engineer",
+        "HR Manager",
+        "Incident Response Lead",
+        "Legal Counsel",
+        "Sales Manager",
+        "Software Engineer"
+      ]
+    },
+    "unseen_entities": {
+      "train_sessions": 3343,
+      "val_sessions": 590,
+      "test_sessions": 1067,
+      "cumulative_lr_numeric": {
+        "accuracy": 0.9850085665334095,
+        "precision": 0.9314516129032258,
+        "recall": 0.9614984391259105,
+        "f1": 0.946236559139785,
+        "roc_auc": 0.9959981561211595,
+        "threshold": 0.7799999999999999,
+        "n": 7004
+      },
+      "gru": {
+        "accuracy": 0.9842946887492862,
+        "precision": 0.9111111111111111,
+        "recall": 0.9812695109261186,
+        "f1": 0.9448897795591182,
+        "roc_auc": 0.9953939190225858,
+        "threshold": 0.7549999999999999,
+        "num_test_samples": 7004
+      },
+      "heldout_groups": [
+        {
+          "type": "project",
+          "value": "Project Beacon Remediation"
+        },
+        {
+          "type": "project",
+          "value": "Project Horizon Upgrade"
+        },
+        {
+          "type": "project",
+          "value": "Project Neptune Integration"
+        },
+        {
+          "type": "project",
+          "value": "Project Vantage Rollout"
+        },
+        {
+          "type": "system",
+          "value": "CRM-UAT"
+        },
+        {
+          "type": "system",
+          "value": "EmailGateway-UAT"
+        },
+        {
+          "type": "system",
+          "value": "HRIS-UAT"
+        },
+        {
+          "type": "system",
+          "value": "IdentityPortal-Admin"
+        },
+        {
+          "type": "system",
+          "value": "Ticketing-UAT"
+        },
+        {
+          "type": "vendor",
+          "value": "AuditWorks"
+        },
+        {
+          "type": "vendor",
+          "value": "BrightComms"
+        }
+      ]
+    },
+    "balanced_to_realistic": {
+      "train_sessions": 4250,
+      "val_sessions": 750,
+      "test_sessions": 5000,
+      "cumulative_lr_numeric": {
+        "accuracy": 0.9920525475395559,
+        "precision": 0.9054280917739228,
+        "recall": 0.9700239808153477,
+        "f1": 0.9366136034732272,
+        "roc_auc": 0.9987547122376265,
+        "threshold": 0.705,
+        "n": 27556
+      },
+      "gru": {
+        "accuracy": 0.9932138191319495,
+        "precision": 0.9224187107815174,
+        "recall": 0.9694244604316546,
+        "f1": 0.9453376205787781,
+        "roc_auc": 0.9985541735029776,
+        "threshold": 0.73,
+        "num_test_samples": 27556
+      }
+    },
+    "balanced_to_risk_enriched": {
+      "train_sessions": 4250,
+      "val_sessions": 750,
+      "test_sessions": 5000,
+      "cumulative_lr_numeric": {
+        "accuracy": 0.9584349239521653,
+        "precision": 0.8980910425844346,
+        "recall": 0.9591217982226868,
+        "f1": 0.9276036400404449,
+        "roc_auc": 0.9907815001800822,
+        "threshold": 0.705,
+        "n": 34452
+      },
+      "gru": {
+        "accuracy": 0.9600893997445722,
+        "precision": 0.9009988249118684,
+        "recall": 0.9619445896497648,
+        "f1": 0.9304747939525712,
+        "roc_auc": 0.9898713392059553,
+        "threshold": 0.7649999999999999,
+        "num_test_samples": 34452
+      }
+    }
+  }
+}
