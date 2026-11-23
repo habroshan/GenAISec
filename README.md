@@ -2,8 +2,7 @@
 
 This repository contains the synthetic enterprise interaction benchmark, labelling code, detection models and evaluation results accompanying the study on cumulative enterprise data leakage and attack-ready disclosure states in generative AI. 
 
-The article is published by Scientific Reports:
-
+The article's title is: 
 ### Detecting Attack Readiness from Cumulative Enterprise Data Leakage in Generative AI
 
 ------------------------------------------------------------------------------------------------------
