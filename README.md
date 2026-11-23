@@ -4,7 +4,7 @@ This repository contains the synthetic enterprise interaction benchmark, labelli
 
 The article is published by Scientific Reports:
 
-# Detecting Attack Readiness from Cumulative Enterprise Data Leakage in Generative AI
+### Detecting Attack Readiness from Cumulative Enterprise Data Leakage in Generative AI
 
 
 The main benchmark contains 15,000 sessions and 92,791 prompts, organised into three profiles.
