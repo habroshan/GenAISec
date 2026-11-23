@@ -6,6 +6,7 @@ The article is published by Scientific Reports:
 
 ### Detecting Attack Readiness from Cumulative Enterprise Data Leakage in Generative AI
 
+------------------------------------------------------------------------------------------------------
 
 The main benchmark contains 15,000 sessions and 92,791 prompts, organised into three profiles.
 
