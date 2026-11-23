@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "numeric_features": [
+    "turn_id",
+    "new_entity_count",
+    "new_entity_type_count",
+    "cumulative_entity_count",
+    "cumulative_entity_type_count"
+  ],
+  "tfidf_features": 1000,
+  "sequence_input_dim": 1005,
+  "hidden_dim": 96,
+  "max_len": 14,
+  "outputs": [
+    "robustness_results.csv",
+    "enterprise_baseline_results.csv",
+    "deployment_profile.json",
+    "intervention_burden.csv",
+    "cross_profile_checkpoint_results.csv (if profiles supplied)"
+  ],
+  "notes": [
+    "Robustness perturbations are deterministic controlled stress tests, not natural-language human evaluation.",
+    "Code-mixed perturbation is a controlled partial lexical code-mix, not a full multilingual benchmark.",
+    "Cumulative Retrieval (kNN) is a reproducible retrieval-based multi-turn comparator, not an external LLM API.",
+    "Intervention analysis quantifies false-positive burden but is not a user study."
+  ]
+}

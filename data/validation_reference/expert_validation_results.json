@@ -1,0 +1,27 @@
+{
+  "n_cases": 150,
+  "n_experts": 3,
+  "fleiss_kappa_between_experts": 0.5443626039826083,
+  "framework_vs_expert_majority": {
+    "accuracy": 0.8133333333333334,
+    "precision": 0.8243243243243243,
+    "recall": 0.8026315789473685,
+    "f1": 0.8133333333333334,
+    "cohen_kappa": 0.6267330252399573,
+    "confusion_matrix": [
+      [
+        61,
+        13
+      ],
+      [
+        15,
+        61
+      ]
+    ]
+  },
+  "pairwise_expert_cohen_kappa": {
+    "expert_1_vs_expert_2": 0.5179781136008338,
+    "expert_1_vs_expert_3": 0.7712183743046833,
+    "expert_2_vs_expert_3": 0.40535183349851334
+  }
+}
